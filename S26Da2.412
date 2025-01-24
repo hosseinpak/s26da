@@ -21,10 +21,7 @@
             "use strict";
             var placeholder = ' - your IP';
 
-            var setMapHeight = function() {
-                var table_height = document.querySelector('.result-table').offsetHeight;
-                document.querySelector('#map').style.height = table_height + 'px';
-            }
+           
 
             var setIPFlag = function(clear) {
                 var myip = document.querySelector('#my-ip').value;
