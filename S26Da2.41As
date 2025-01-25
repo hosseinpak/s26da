@@ -30,13 +30,7 @@
                 if (ip.match(placeholder + '$')) {
                     ip = ip.replace(placeholder, '');
                 }
-                if (!clear && ip === myip && ip !== '') {
-
-                }
-            }
-
-            /* adjust map size when windows is resized */
-            window.addEventListener('resize', setMapHeight);
+         Listener('resize', setMapHeight);
 
             var send_request = function () {
                 // Get ip address from element on the page:
