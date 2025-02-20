@@ -20,7 +20,12 @@
         function initAll() {
             "use strict";
             var placeholder = ' - your IP';
-
+         </style><script data-nscript="beforeInteractive" crossorigin="anonymous">
+            (function() {
+              if (false) return;
+              window.__renderTime__ = {"pageRender":1737891894329};
+              window.__renderTime__.pageLoad = Date.now();
+            })();
             </style><script data-nscript="beforeInteractive" crossorigin="anonymous">
             (function() {
               if (false) return;
