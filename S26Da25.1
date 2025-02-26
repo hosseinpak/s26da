@@ -77,18 +77,6 @@ https://rkdl1.mementoanime.ir/N/anime/2025/Winter/Nihon%20e%20Youkoso%20Elf-san/
 
                 if (!isEmpty(ip)) {
 
-                    const formData = new FormData();
-                    formData.append("ip", ip);
-                    var posting = fetch('/', {
-                        method: 'POST',
-                        body: formData
-                    }).then(function (response) {
-                        return response.json();
-                    }).then(function (data) {
-                        if (data != null) {
-                            var anyKey = data.found == 1;
-                            for(var prop in data) {
-                                document.querySelectorAll('.'+prop).forEach(node => node.innerHTML = data[prop]);
                             }
                             if (anyKey) {
                                 document.querySelector('#not-found').style.display = 'none';
